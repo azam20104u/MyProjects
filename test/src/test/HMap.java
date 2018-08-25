@@ -34,5 +34,6 @@ public class HMap {
 		}
 		System.out.println(i);*/
 		//System.out.println(4^5);
+		System.out.println("added new line");
 	}
 }
