@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Hacker World</title>
+<style>
+.loginform{  
+    padding:10px;  
+    border:1px solid pink;  
+    border-radius:10px;  
+    width:400px;
+    margin-top:10px;  
+}  
+.formheading{  
+    background-color:red;  
+    color:white;  
+    padding:4px;  
+    text-align:center;  
+}  
+.sub{  
+background-color:red;  
+padding: 7px 40px 7px 40px;  
+color:white;  
+font-weight:bold;  
+margin-left:70px;  
+border-radius:5px;  
+}  
+</style>
+</head>
+<body background="wallpaperflare.com_wallpaper (4).jpg">
+<h1 align="center" style="color: white; font-size: 22px">==========Welcome to My Dark Web===========</h1>
+<div class="loginform">  
+<h3 class="formheading">Sent Email to Anyone</h3>  
+<form action="MailController" method="post">  
+<table>  
+<tr><td style="color: white;">To:</td><td><input type="email" name="to"/></td></tr>  
+<tr><td style="color: white;">Subject:</td><td><textarea name="subject" rows="1" cols="40"></textarea></td></tr> 
+<tr><td style="color: white;">Text:</td><td><textarea name="text" rows="4" cols="40"></textarea></td></tr> 
+<tr><td colspan="2" style="text-align:center"><input class="sub" type="submit" value="Send"/></td></tr>  
+</table>  
+</form>  
+</div> 
+<a href="inbox">inbox</a>
+</body>
+</html>
